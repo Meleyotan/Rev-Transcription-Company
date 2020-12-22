@@ -1,0 +1,88 @@
+/* CSS Designs */
+@font-face{font-family: Helvetica; src:url(Helvetica.ttf)}
+body{font-family: helvetica;color: white;}
+img#logo{width: 10%; margin:15px 0 0 15px;}
+li{list-style: none;}
+h1{text-align: center;
+    font-size: 32pt;
+    color:#ffffff;
+    width: 50%;
+    margin: 0 auto;
+    font-family: helvetica;}
+div#cover{background-color: beige;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("hero.jpg");
+    background-attachment: fixed;
+    position: relative;}
+h2#come{text-align: center;
+    font-size: 16pt;
+    color: #f1f1f1;
+    width: 40%;
+    margin: 0 auto;}
+div ul#resource{}
+div ul#resource li{float: left;margin-right: 25px;
+font-size: 15pt;}
+div#one{width: 90%;
+margin-left: auto;
+margin-right: auto;}
+nav{width: 70%;
+float: right;
+text-align: right;
+margin-right: 25px;
+margin-top: 20px;}
+nav ul{float: right;
+list-style: none;}
+nav ul li{float: left;
+color: #ffffff;
+font-size: 15pt;text-decoration: none;
+margin-right: 25px;}
+a{color: #ffffff;text-decoration: overline;}
+a:hover{opacity: 0.7;transform: scale(0.98);transition: all 0.2s ease-out;}
+section.blue{background-color: #2f3a4d;text-align: center;height: 100%;}
+ul.resource{margin-right: auto;
+margin-left: auto;}
+p{text-align: center;}
+h3{line-height: 1em; text-align: center;font-size: 1.5em;}
+div.all{padding: 40px;padding-bottom: 60px;}
+div#firstp{width: 20%;display:inline-block; position:static;vertical-align: text-top;}
+div#secondp{width:20%; display: inline-block; position: relative;vertical-align: text-top;}
+div#thirdp{width: 20%; display: inline-block; position: static;vertical-align: text-top;}
+div#fourthp{width: 20%; display: inline-block; position: static;vertical-align: text-top;}
+div#fifthp{width: 20%; display: inline-block;position: static;vertical-align: text-top;}
+div#sixthp{width: 20%; display:inline-block;position: relative;vertical-align: text-top;}
+span{position: relative;}
+div.more{height: 500px;background-color: #f1f1f1; padding-top: 40px; color: black;}
+p#small{width: 60%; margin-left: auto; margin-right: auto;}
+p#make{width: 70%; font-size: 1.3em;font-weight: lighter;margin-left: auto; margin-right: auto;}
+div#trans{background-color: #ffffff; width: 80%; margin-left: auto; margin-right: auto;
+    height: 500px;border-radius: 2rem;box-shadow: 10px 10px 20px 5px rgba(0,0,0,.12);}
+h2#second{color: black; padding:50px;padding-bottom: 0;}
+p#do{text-align: left;padding-left: 50px;width: 60%;display: inline-block;}
+button#button{color:blue;padding: 10px 50px 10px 50px;margin-left: 40px;
+border-radius: 0;margin-bottom: 40px;font-size: 1em;border-color: red;letter-spacing: 2px;background-color: #ffffff;}
+div.tran{background:linear-gradient(to top right,#2f3a4d 50%,transparent 50%); width: 80%; margin-left: auto; margin-right: auto;
+    height: 500px;border-radius: 2rem;box-shadow: 10px 10px 20px 5px rgba(0,0,0,.12);margin-top: 100px;}
+div.tra{background-color: #f1f1f1;text-align: center;height: 300px;margin-top: 150px;}
+h2#best{padding-top: 100px;}
+span{color: red;}
+button#double{color: red;border-radius: 0;border-color: red;padding:10px 20px 10px 20px;margin-right: 20px;font-size: 1em;}
+div.tr{background-color: #2f3a4d;height: 700px;
+    background: /*linear-gradient(45deg, #ff8a00 25%, transparent 25%),
+    linear-gradient(135deg, #2f3a4d 25%,transparent 25%),/*linear-gradient(315deg,#444 25%,transparent 25%), 
+    linear-gradient(165deg,#354 25%,transparent 25%),*/linear-gradient(225deg, #e23 45%, transparent 25%),
+linear-gradient(315deg, #555555 30%, transparent 30%);}
+p#small{position: relative;}
+span#more{position: relative;}
+/* div.practice{background: linear-gradient(45deg, #ff8a00 25%, transparent 25%),
+    linear-gradient(135deg, #2f3a4d 25%, transparent 25%)-50px,0;
+    height:500px;background-size: 100px 100px;} */
+img{width: 30%;vertical-align: top;margin-right: 20px;box-shadow:1px 2px 2px 0.2px rgba(0,0,0,0.5);}
+img:hover{transform: scale(0.98);transition:0.5s linear;cursor:pointer;}
+div.middle{margin-left: auto; margin-right: auto; width: 90%;padding: 30px;}
+div.box:empty{background: #ffff33;height:100px;}
+
+/*Mobile Responsive*/
+@media only screen and (max-width: 600px){
+    body{background-color: #ffff33;}
+    img{display: none;}
+}
